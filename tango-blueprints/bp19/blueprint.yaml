@@ -1,0 +1,14 @@
+name: bp19
+version: v1
+resources:
+  Cloud_Network_1:
+    type: Cloud.Network
+    properties:
+      name: test
+      networkType: existing
+  Cloud_Machine_1:
+    type: Cloud.Machine
+    properties:
+      image: ubuntu
+      flavor: small
+
