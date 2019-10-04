@@ -1,5 +1,5 @@
 def handler(context, inputs):
-    greeting = "Vanakkam, {0}!".format(inputs["target"])
+    greeting = "Hi, {0}!".format(inputs["target"])
     print(greeting)
 
     outputs = {
