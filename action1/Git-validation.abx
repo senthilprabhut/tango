@@ -1,0 +1,20 @@
+---
+exportVersion: "1"
+exportId: "8a7480a56d605d29016d8dbbcb6f0263"
+name: "Git-validation"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  token: "Man7Q-2RuZx72f1Yo"
+  baseUrl: "https://gitlab.eng.vmware.com"
+timeoutSeconds: 180
+deploymentTimeoutSeconds: 600
+dependencies: "python-gitlab"
+actionType: "SCRIPT"
+configuration:
+  const-providers:
+  - ""
+  const_azure-system_managed_identity: false
+actionTemplateName: "Custom script"
+actionTemplateNamespace: "com.vmware.automation.abx"
+memoryInMB: 150
