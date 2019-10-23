@@ -1,5 +1,5 @@
 name: bp21
-version: v1
+version: v2
 resources:
   Cloud_Network_1:
     type: Cloud.Network
