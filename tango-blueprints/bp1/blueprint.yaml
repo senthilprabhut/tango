@@ -1,5 +1,5 @@
 name: bp1
-version: v7
+version: v8
 resources:
   Cloud_Network_1:
     type: Cloud.Network
