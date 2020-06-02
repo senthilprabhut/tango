@@ -1,5 +1,5 @@
 name: bp1
-version: v31
+version: v32
 resources:
   Cloud_Machine_1:
     type: Cloud.Machine
