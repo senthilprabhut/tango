@@ -1,5 +1,5 @@
-name: bpAkasit
-version: v30
+name: bp1
+version: v31
 resources:
   Cloud_Machine_1:
     type: Cloud.Machine
