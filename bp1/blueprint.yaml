@@ -1,8 +1,8 @@
 name: bp1
-version: v37
+version: v38
 resources:
   Cloud_Machine_1:
     type: Cloud.Machine
     properties:
-      image: ubuntu
+      image: linux
       flavor: large
