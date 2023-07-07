@@ -83,13 +83,13 @@ resource "helm_release" "redis" {
     chart      = "redis"
     version    = "17.11.0"
 
-    set {
-        name  = "master.persistence.enabled"
-        value = "false"
-    }
+    #set {
+    #    name  = "master.persistence.enabled"
+    #    value = "false"
+    #}
 
-    set {
-        name  = "replica.persistence.enabled"
-        value = "false"
-    }
+    #set {
+    #    name  = "replica.persistence.enabled"
+    #    value = "false"
+    #}
 }
