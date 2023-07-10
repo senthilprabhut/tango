@@ -60,6 +60,16 @@ variable "namespace" {
   default = "default"
 }
 
+variable "chart_name" {
+  type    = string
+  default = "redis"
+}
+
+variable "chart_version" {
+  type    = string
+  default = "17.11.0"
+}
+
 variable "registry_url" {
   type    = string
   default = "oci://harbor.int.app-catalog.vmware.com/catalog_governor/charts/photon-4"
@@ -80,8 +90,8 @@ resource "helm_release" "redis" {
 
     namespace  = var.namespace
     repository = var.registry_url
-    chart      = "redis"
-    version    = "17.11.0"
+    chart      = var.chart_name
+    version    = var.chart_version
 
     set {
         name  = "master.persistence.enabled"
