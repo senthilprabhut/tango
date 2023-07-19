@@ -1,6 +1,6 @@
 variable "cluster_endpoint" {
   type    = string
-  default = "https://10.89.92.4:6443"
+  default = "https://10.89.92.6:6443"
 }
 
 # client certificate authentication
